@@ -1,0 +1,101 @@
+/** {
+    overflow: hidden;
+}*/
+
+.container {
+    background-color: hsl(0, 100%, 74%);
+    background-image: url("BG.png");
+    /*position: relative;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 100px;
+    /*text-align: center;*/
+    height: 97vh;
+}
+
+.contenedor {
+    margin-left: 200px;
+}
+
+/*.texto,
+.descripcion {
+    text-align: left;
+    margin: 0;
+    display: flex;
+}*/
+
+.formulario {
+    background-color: white;
+    width: 500px;
+    height: 450px;
+    text-align: center;
+    border-radius: 8px;
+
+
+}
+
+.relleno {
+    width: 400px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 8px;
+    border-width: 1px;
+    border-color: none;
+}
+
+.name {
+    margin-top: 30px;
+}
+
+.descripcion_chica,
+.descripcion_grande {
+    color: black;
+    
+
+
+}
+
+/*.descripcion_grande {
+    font-size: 70px;
+}*/
+
+.boton {
+    background-color: hsl(154, 59%, 51%);
+    width: 408px;
+    height: 50px;
+    box-shadow: 0 3px rgb(48, 139, 77);
+    border-style: none;
+    cursor: pointer;
+    color: white;
+}
+
+
+.boton:active {
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+}
+
+.boton:hover {
+    filter: brightness(80%);
+    transition: filter .25s;
+}
+
+
+
+.titulo_form {
+    display: flex;
+    color: white;
+    background-color: hsl(248, 32%, 49%);
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    border-radius: 8px;
+    border: grey 1px;
+    box-shadow: 15px black;
+    justify-content: center;
+    align-items: center;
+    /*box-shadow:  10px 5px 12px lightblue;*/
+
+}
+
