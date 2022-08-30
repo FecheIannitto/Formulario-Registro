@@ -4,41 +4,45 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <title>Formulario de Registro</title>
-    <script src="comando.js"></script>
+
 </head>
 
 <body class="todo">
 
     <div class="container">
 
-        <!-- <img src="C:\Users\User\Desktop\proyectos de programacion\Formulario Registro\intro-component-with-signup-form-master\images\bg-intro-desktop.png"
-            alt="wallpapper" class="fondo"> -->
-
-        <div class="juan">
+        <div class="texto">
             <p class="descripcion_grande"> Learn to code by watching others</p>
-            <p class="descripcion_chica">See how experienced developes solve problems in real-time. Watchin scripted
-                tutorials is great, but understanding how developers think is invaluable</p>
+            <p class="descripcion_chica">See how experienced developes solve problems in real-time.
+                Watchin scripted tutorials is great, but understanding how
+                developers think is invaluable</p>
         </div>
 
-        <div class="contenedor">          
-                <p class="titulo_form">
-                    <strong>Try it free 7 days</strong> then $20/mo. thereafter
-                </p>
-            
+        <div class="contenedor">
+            <p class="titulo_form">
+                <strong>Try it free 7 days</strong> then $20/mo. thereafter
+            </p>
 
-            <div class="formulario">
-                <input type="relleno" class="relleno name" placeholder="Name">
-                <input type="relleno" class="relleno" placeholder="Last Name">
-                <input type="relleno" class="relleno" placeholder="Email Address">
-                <input type="relleno" class="relleno" placeholder="Password">
+            <form class="formulario">
+                <input type="text" class="relleno name" placeholder="Name" id="nombre" name="name">
+                <input type="text" class="relleno" placeholder="Last Name" id="apellido" name="last_name">
+                <input type="email" class="relleno" placeholder="Email Address" id="email" name="email">
+                <input type="password" class="relleno" placeholder="Password" id="password" name="password">
 
                 <button class="boton relleno">
                     <strong> CLAIM YOUR FREE TRIAL </strong></button>
 
-                <p class="terminos">By clicking the button, you are agreeing to our Terms and Services</p>
-            </div>
+                <p class="terminos">
+                    <strong> By clicking the button, you are agreeing to our
+                        <strong class="rojo">
+                            Terms and Services
+                        </strong>
+                    </strong>
+                </p>
+            </form>
         </div>
     </div>
+    <script src="comando.js"></script>
 </body>
 
 </html>
