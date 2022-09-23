@@ -83,7 +83,6 @@ DNI.addEventListener("focus", () => {
 
 
 
-
 email.addEventListener("blur", () => {
     //nombre.value = null ---> esto es una asignacion
 
@@ -141,7 +140,23 @@ form.addEventListener('submit', (e) => {
         alert('Faltan datos')
     }
     else {
-        alert('gracias por inscribirte')
+        window.location.href = "http://127.0.0.1:5500/home.html"
     }
-    
 })
+
+/*console.log(backEnd(true))
+if (backEnd(true)) {
+    window.location.href = "http://127.0.0.1:5500/home.html"
+} else {
+    alert("Usuario no registrado")
+}
+
+function backEnd(validacion) {
+    const timeOut = setTimeout(() => {
+        console.log("repuesta de backEnd")
+        return validacion
+
+    }, 2000)
+}
+
+function processResponse()*/
