@@ -3,23 +3,31 @@
 
 <head>
     <title>Gracias</title>
-
+    <link rel="stylesheet" href="formato.css">
 </head>
 
 <body>
-    <h1>Reloj</h1>
-    <div>
 
-        00:00:00 horas
-        <button id="Start" name="Start">Start</button>
-        <button id="Stop" name="Stop">Stop</button>
-        <button id="Reset" name="Reset">Reset</button>
+    <div class="container">
 
+        <h1 class="reloj">Reloj</h1>
+
+        <div class="minutero">
+            <input class="number" type="text" maxlength="2" value="00"> <span>hs.</span>
+            <input class="number" type="text" maxlength="2" value="00"> <span>min.</span>
+            <input class="number" type="text" maxlength="2" value="00"> <span>seg.</span>
+        </div>
+
+        <div class="comandos">
+            <button id="Start" class="boton">Start</button>
+            <button id="Stop" class="boton">Stop</button>
+            <button id="Reset" class="boton">Reset</button>
+        </div>
 
         <!-- Apretar START y que empiece a correr el tiempo -->
         <!-- Apretar STOP y que pare de correr el tiempo -->
         <!-- Apretar RESET y que reinicie el tiempo -->
-        <img src="BG.png" alt="">
+
     </div>
     <script src="reloj.js"></script>
 </body>
